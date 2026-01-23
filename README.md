@@ -117,7 +117,6 @@ No resources.
 | <a name="input_s3_bucket_name"></a> [s3_bucket_name](#input_s3_bucket_name) | S3 bucket name suffix (will be prefixed by standard naming) | `string` | n/a | yes |
 | <a name="input_s3_bucket_versioning"></a> [s3_bucket_versioning](#input_s3_bucket_versioning) | Enable or disable S3 bucket versioning | `string` | `"Enabled"` | no |
 | <a name="input_s3_server_side_encryption"></a> [s3_server_side_encryption](#input_s3_server_side_encryption) | S3 server-side encryption algorithm | `string` | `"AES256"` | no |
-| <a name="input_s3_standard_bucket_name"></a> [s3_standard_bucket_name](#input_s3_standard_bucket_name) | Standard S3 bucket prefix for Terraform state | `string` | `"tfstate-prod"` | no |
 | <a name="input_security_dynamotbl_tags"></a> [security_dynamotbl_tags](#input_security_dynamotbl_tags) | Security-related tags for DynamoDB table | `map(string)` | n/a | yes |
 | <a name="input_security_s3_tags"></a> [security_s3_tags](#input_security_s3_tags) | Security-related tags for S3 resources | `map(string)` | n/a | yes |
 | <a name="input_technical_dynamodbtbl_tags"></a> [technical_dynamodbtbl_tags](#input_technical_dynamodbtbl_tags) | Technical tags for DynamoDB table | `map(string)` | n/a | yes |
