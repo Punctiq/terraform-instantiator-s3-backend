@@ -7,11 +7,11 @@
 # Standards
 ########################
 
-variable "s3_standard_bucket_name" {
-  type        = string
-  description = "Standard S3 bucket prefix for Terraform state"
-  default     = "tfstate-prod"
-}
+#variable "s3_standard_bucket_name" {
+#  type        = string
+##  description = "Standard S3 bucket prefix for Terraform state"
+ # default     = "tfstate-prod"
+#}
 
 variable "region" {
   type        = string

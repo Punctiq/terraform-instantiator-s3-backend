@@ -21,6 +21,9 @@ terraform {
 provider "aws" {
   region  = var.region
   profile = var.profile
+   assume_role {
+    role_arn = "arn:aws:iam::791954933608:role/PunctiqTerraformProvisionerRole"
+  }
 }
 
 #############################################
