@@ -10,7 +10,7 @@
 terraform_module_version = "1.0.0"
 
 region  = "eu-central-1"
-profile = "punctiq-prod"
+#profile = "punctiq-prod"
 
 ########################
 # S3 variables

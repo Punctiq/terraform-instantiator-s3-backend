@@ -18,10 +18,10 @@ variable "region" {
   description = "AWS region where resources will be created"
 }
 
-variable "profile" {
-  type        = string
-  description = "AWS CLI profile used for deployment"
-}
+#variable "profile" {
+#  type        = string
+#  description = "AWS CLI profile used for deployment"#
+#}
 
 variable "terraform_module_version" {
   type        = string

@@ -42,7 +42,7 @@ module "aws_s3_backend" {
   terraform_module_version = var.terraform_module_version
 
   region  = var.region
-  profile = var.profile
+  #profile = var.profile
 
   ###########################################
   # S3
