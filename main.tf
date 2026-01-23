@@ -38,7 +38,7 @@ module "aws_s3_backend" {
   ###########################################
   # Standards
   ###########################################
-  s3_standard_bucket_name  = "tfstate-prod"  # enforced by your module validation
+  #s3_standard_bucket_name  = "tfstate-prod"  # enforced by your module validation
   terraform_module_version = var.terraform_module_version
 
   region  = var.region
