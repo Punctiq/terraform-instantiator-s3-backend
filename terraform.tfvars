@@ -121,3 +121,8 @@ backup_s3_tags = {
   "punctiq:backup:owner"               = "punctiq-platform-team"
   "punctiq:backup:data_classification" = "confidential"
 }
+
+deployment_tags_static = {
+  "atos:deployment:type"           = "blue-green"
+  "atos:deployment:change_request" = "cau-123"
+}
