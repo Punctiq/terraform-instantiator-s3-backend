@@ -123,6 +123,6 @@ backup_s3_tags = {
 }
 
 deployment_tags_static = {
-  "atos:deployment:type"           = "blue-green"
-  "atos:deployment:change_request" = "cau-123"
+  "punctiq:deployment:type"           = "blue-green"
+  "punctiq:deployment:change_request" = "cau-123"
 }
