@@ -105,6 +105,7 @@ No resources.
 | <a name="input_backup_s3_tags"></a> [backup_s3_tags](#input_backup_s3_tags) | Backup and data protection tags for S3 resources | `map(string)` | n/a | yes |
 | <a name="input_billing_tags"></a> [billing_tags](#input_billing_tags) | Billing and cost allocation tags | `map(string)` | n/a | yes |
 | <a name="input_business_tags"></a> [business_tags](#input_business_tags) | Business-related tags | `map(string)` | n/a | yes |
+| <a name="input_deployment_tags_static"></a> [deployment_tags_static](#input_deployment_tags_static) | AWS deployment TAGS | `map(string)` | n/a | yes |
 | <a name="input_dynamo_tbl_attribute_type"></a> [dynamo_tbl_attribute_type](#input_dynamo_tbl_attribute_type) | DynamoDB attribute type for the hash key | `string` | `"S"` | no |
 | <a name="input_dynamo_tbl_billing_mode"></a> [dynamo_tbl_billing_mode](#input_dynamo_tbl_billing_mode) | DynamoDB billing mode | `string` | `"PAY_PER_REQUEST"` | no |
 | <a name="input_dynamo_tbl_hash_key"></a> [dynamo_tbl_hash_key](#input_dynamo_tbl_hash_key) | DynamoDB hash (partition) key name | `string` | `"LockID"` | no |
@@ -119,6 +120,10 @@ No resources.
 | <a name="input_s3_server_side_encryption"></a> [s3_server_side_encryption](#input_s3_server_side_encryption) | S3 server-side encryption algorithm | `string` | `"AES256"` | no |
 | <a name="input_security_dynamotbl_tags"></a> [security_dynamotbl_tags](#input_security_dynamotbl_tags) | Security-related tags for DynamoDB table | `map(string)` | n/a | yes |
 | <a name="input_security_s3_tags"></a> [security_s3_tags](#input_security_s3_tags) | Security-related tags for S3 resources | `map(string)` | n/a | yes |
+| <a name="input_tag_build_author"></a> [tag_build_author](#input_tag_build_author) | Deployment author, taken from  Jenkins | `string` | `""` | no |
+| <a name="input_tag_build_hash"></a> [tag_build_hash](#input_tag_build_hash) | GIT hash, taken from  Jenkins | `string` | `""` | no |
+| <a name="input_tag_build_job_name"></a> [tag_build_job_name](#input_tag_build_job_name) | Job name, taken from  Jenkins | `string` | `""` | no |
+| <a name="input_tag_build_number"></a> [tag_build_number](#input_tag_build_number) | Build number, taken from  Jenkins | `string` | `""` | no |
 | <a name="input_technical_dynamodbtbl_tags"></a> [technical_dynamodbtbl_tags](#input_technical_dynamodbtbl_tags) | Technical tags for DynamoDB table | `map(string)` | n/a | yes |
 | <a name="input_technical_s3_tags"></a> [technical_s3_tags](#input_technical_s3_tags) | Technical tags for S3 resources | `map(string)` | n/a | yes |
 | <a name="input_terraform_module_version"></a> [terraform_module_version](#input_terraform_module_version) | Terraform module version used to deploy resources | `string` | n/a | yes |
