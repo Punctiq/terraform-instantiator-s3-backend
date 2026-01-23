@@ -111,7 +111,6 @@ No resources.
 | <a name="input_dynamo_tbl_hash_key"></a> [dynamo_tbl_hash_key](#input_dynamo_tbl_hash_key) | DynamoDB hash (partition) key name | `string` | `"LockID"` | no |
 | <a name="input_dynamo_tbl_name"></a> [dynamo_tbl_name](#input_dynamo_tbl_name) | DynamoDB table name used for Terraform state locking | `string` | n/a | yes |
 | <a name="input_dynamo_tbl_point_in_time_recovery"></a> [dynamo_tbl_point_in_time_recovery](#input_dynamo_tbl_point_in_time_recovery) | Enable point-in-time recovery for DynamoDB table | `string` | `true` | no |
-| <a name="input_profile"></a> [profile](#input_profile) | AWS CLI profile used for deployment | `string` | n/a | yes |
 | <a name="input_region"></a> [region](#input_region) | AWS region where resources will be created | `string` | n/a | yes |
 | <a name="input_s3_block_public_acls"></a> [s3_block_public_acls](#input_s3_block_public_acls) | Whether to block public ACLs on the S3 bucket | `string` | `true` | no |
 | <a name="input_s3_block_public_policy"></a> [s3_block_public_policy](#input_s3_block_public_policy) | Whether to block public bucket policies | `string` | `true` | no |
