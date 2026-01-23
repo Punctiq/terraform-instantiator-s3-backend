@@ -72,4 +72,9 @@ module "aws_s3_backend" {
   security_dynamotbl_tags    = var.security_dynamotbl_tags
   billing_tags               = var.billing_tags
   backup_s3_tags             = var.backup_s3_tags
+  deployment_tags_static     = var.deployment_tags_static                      # values from tfvars
+  tag_build_number           = var.tag_build_number                            # values from tfvars
+  tag_build_author           = var.tag_build_author                            # values from tfvars
+  tag_build_hash             = var.tag_build_hash                              # values from tfvars
+  tag_build_job_name         = var.tag_build_job_name                          # values from tfvars
 }
