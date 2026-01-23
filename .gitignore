@@ -8,7 +8,7 @@
 .terraform.lock.hcl
 
 # Secrets
-*.tfvars
+#*.tfvars
 *.tfvars.json
 
 # Editor / OS
